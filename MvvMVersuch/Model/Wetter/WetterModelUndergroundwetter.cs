@@ -20,16 +20,17 @@ namespace MvvMVersuch.Model.Wetter
             await GetWeatherData();
         }
 
-        private string _apiToken = "";
+        private readonly string _apiToken = "";
         private string _request10Day;
         private string _requestAstronomy;
         private string _requestHourly;
 
         private async Task GetWeatherData()
         {
-            Uri stundlich = new Uri($"http://api.wunderground.com/api/{_apiToken}/hourly/q/Germany/Kiel.json");
-            Uri vorschau10Tage = new Uri($"http://api.wunderground.com/api/{_apiToken}/forecast10day/q/Germany/Kiel.json");
-            Uri astronomy = new Uri($"http://api.wunderground.com/api/{_apiToken}/astronomy/q/Germany/Kiel.json");
+            var stundlich = new Uri($"http://api.wunderground.com/api/{_apiToken}/hourly/q/Germany/Kiel.json");
+            var vorschau10Tage =
+                new Uri($"http://api.wunderground.com/api/{_apiToken}/forecast10day/q/Germany/Kiel.json");
+            var astronomy = new Uri($"http://api.wunderground.com/api/{_apiToken}/astronomy/q/Germany/Kiel.json");
 
             using (var client = new HttpClient())
             {
@@ -39,6 +40,10 @@ namespace MvvMVersuch.Model.Wetter
 
                 _requestAstronomy = await client.GetStringAsync(astronomy);
             }
+        }
+
+        private void UpdateAstronomy(string rohRequest)
+        {
         }
     }
 }
