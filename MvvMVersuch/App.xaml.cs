@@ -1,8 +1,12 @@
-﻿using System;
+﻿using MvvMVersuch.Controllers;
+using MvvMVersuch.Model.Wetter;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -42,12 +46,19 @@ namespace MvvMVersuch
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
-#if DEBUG
-            if (System.Diagnostics.Debugger.IsAttached)
+            try
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                var WetterModel = new WetterModelUndergroundwetter();
+                Task.Run(() => WetterModel.Update());
+
+                // (Resources["clockViewModel"] as ClockViewModel).Initialize(clockModel);
+                TimerController.RegisterModel(WetterModel);
             }
-#endif
+            catch (Exception ex)
+            {
+                Debugger.Break();
+            }
+
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,

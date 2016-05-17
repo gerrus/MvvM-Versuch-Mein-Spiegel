@@ -7,6 +7,11 @@ namespace MvvMVersuch.Model.Wetter
 {
     public class WetterModelUndergroundwetter : WetterModel
     {
+        private readonly string _apiToken = "dcd59d2bacae2e58";
+        private string _request10Day;
+        private string _requestAstronomy;
+        private string _requestHourly;
+
         public WetterModelUndergroundwetter()
         {
             Vorschau10Tage = new List<WetterDetails>();
@@ -20,17 +25,20 @@ namespace MvvMVersuch.Model.Wetter
             await GetWeatherData();
         }
 
-        private readonly string _apiToken = "";
-        private string _request10Day;
-        private string _requestAstronomy;
-        private string _requestHourly;
-
         private async Task GetWeatherData()
         {
-            var stundlich = new Uri($"http://api.wunderground.com/api/{_apiToken}/hourly/q/Germany/Kiel.json");
+            var stundlich = new Uri($"http://api.wunderground.com/api/{_apiToken}/hourly/lang:DL/q/Germany/Kiel.json");
             var vorschau10Tage =
-                new Uri($"http://api.wunderground.com/api/{_apiToken}/forecast10day/q/Germany/Kiel.json");
-            var astronomy = new Uri($"http://api.wunderground.com/api/{_apiToken}/astronomy/q/Germany/Kiel.json");
+                new Uri($"http://api.wunderground.com/api/{_apiToken}/forecast10day/lang:DL/q/Germany/Kiel.json");
+            var astronomy = new Uri($"http://api.wunderground.com/api/{_apiToken}/astronomy/lang:DL/q/Germany/Kiel.json");
+
+            // Alternative Anfrage falls andere nicht funktioniert
+
+            //using (var client2 = new HttpClient())
+            //{
+            //    var requestString = await client2.GetAsync(stundlich);
+            //    var stringtemp = await requestString.Content.ReadAsStringAsync();
+            //}
 
             using (var client = new HttpClient())
             {
