@@ -1,22 +1,15 @@
 ﻿using MvvMVersuch.Controllers;
+using MvvMVersuch.Model.Uhr;
 using MvvMVersuch.Model.Wetter;
+using MvvMVersuch.ViewModel;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace MvvMVersuch
@@ -26,6 +19,8 @@ namespace MvvMVersuch
     /// </summary>
     sealed partial class App : Application
     {
+        #region Public Constructors
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -35,29 +30,39 @@ namespace MvvMVersuch
             Microsoft.ApplicationInsights.WindowsAppInitializer.InitializeAsync(
                 Microsoft.ApplicationInsights.WindowsCollectors.Metadata |
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
-            this.InitializeComponent();
-            this.Suspending += OnSuspending;
+            InitializeComponent();
+            Suspending += OnSuspending;
         }
+
+        #endregion Public Constructors
+
+        #region Protected Methods
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
             try
             {
-                var WetterModel = new WetterModelUndergroundwetter();
-                Task.Run(() => WetterModel.Update());
+                var wetterModel = new WetterModelUndergroundwetter();
+                await Task.Run(() => wetterModel.Update());
+                var uhrModel = new UhrModel();
+                await Task.Run(() => uhrModel.Update());
+                ((MainViewModel)Resources["MainViewModelKey"]).Init(wetterModel, uhrModel);
 
-                // (Resources["clockViewModel"] as ClockViewModel).Initialize(clockModel);
-                TimerController.RegisterModel(WetterModel);
+                TimerController.RegisterModel(wetterModel);
+                TimerController.RegisterModel(uhrModel);
             }
             catch (Exception ex)
             {
+                MessageDialog ter = new MessageDialog(ex.Message);
                 Debugger.Break();
             }
+
+            //Todo weitere Modele hier erstellen
 
             Frame rootFrame = Window.Current.Content as Frame;
 
@@ -94,6 +99,10 @@ namespace MvvMVersuch
             }
         }
 
+        #endregion Protected Methods
+
+        #region Private Methods
+
         /// <summary>
         /// Invoked when Navigation to a certain page fails
         /// </summary>
@@ -118,5 +127,7 @@ namespace MvvMVersuch
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+        #endregion Private Methods
     }
 }

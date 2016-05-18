@@ -1,0 +1,2891 @@
+﻿{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "hourly": 1
+    }
+  },
+  "hourly_forecast": [
+    {
+      "FCTTIME": {
+        "hour": "18",
+        "hour_padded": "18",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463500800",
+        "pretty": "06:00 PM CEST am 17. Mai 2016",
+        "civil": "6:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "52",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "71",
+      "wspd": {
+        "english": "15",
+        "metric": "24"
+      },
+      "wdir": {
+        "dir": "W", //Windrichtung in wörtern
+        "degrees": "282" // Windrichtung in grad
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "1",
+      "humidity": "69",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "52",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.89",
+        "metric": "1012"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "19",
+        "hour_padded": "19",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463504400",
+        "pretty": "07:00 PM CEST am 17. Mai 2016",
+        "civil": "7:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "53",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Bedeckt",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "80",
+      "wspd": {
+        "english": "13",
+        "metric": "21"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "280"
+      },
+      "wx": "Bedeckt",
+      "uvi": "0",
+      "humidity": "69",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "53",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "20",
+        "hour_padded": "20",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463508000",
+        "pretty": "08:00 PM CEST am 17. Mai 2016",
+        "civil": "8:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "52",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "42",
+        "metric": "6"
+      },
+      "condition": "Bedeckt",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "89",
+      "wspd": {
+        "english": "11",
+        "metric": "18"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "276"
+      },
+      "wx": "Bedeckt",
+      "uvi": "0",
+      "humidity": "69",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "52",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "21",
+        "hour_padded": "21",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463511600",
+        "pretty": "09:00 PM CEST am 17. Mai 2016",
+        "civil": "9:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "50",
+        "metric": "10"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Bedeckt",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "80",
+      "wspd": {
+        "english": "9",
+        "metric": "14"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "273"
+      },
+      "wx": "Bedeckt",
+      "uvi": "0",
+      "humidity": "76",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "50",
+        "metric": "10"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "0",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "22",
+        "hour_padded": "22",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463515200",
+        "pretty": "10:00 PM CEST am 17. Mai 2016",
+        "civil": "10:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "49",
+        "metric": "9"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "79",
+      "wspd": {
+        "english": "7",
+        "metric": "11"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "268"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "81",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "49",
+        "metric": "9"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "23",
+        "hour_padded": "23",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "17",
+        "mday_padded": "17",
+        "yday": "137",
+        "isdst": "1",
+        "epoch": "1463518800",
+        "pretty": "11:00 PM CEST am 17. Mai 2016",
+        "civil": "11:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Dienstag",
+        "weekday_name_night": "Dienstag Nacht",
+        "weekday_name_abbrev": "Di",
+        "weekday_name_unlang": "Tuesday",
+        "weekday_name_night_unlang": "Tuesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "48",
+        "metric": "9"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "59",
+      "wspd": {
+        "english": "5",
+        "metric": "8"
+      },
+      "wdir": {
+        "dir": "W",
+        "degrees": "262"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "83",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "48",
+        "metric": "9"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "0",
+        "hour_padded": "00",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463522400",
+        "pretty": "12:00 AM CEST am 18. Mai 2016",
+        "civil": "12:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "46",
+        "metric": "8"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "46",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "258"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "88",
+      "windchill": {
+        "english": "45",
+        "metric": "7"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "45",
+        "metric": "7"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "1",
+        "hour_padded": "01",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463526000",
+        "pretty": "01:00 AM CEST am 18. Mai 2016",
+        "civil": "1:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "45",
+        "metric": "7"
+      },
+      "dewpoint": {
+        "english": "42",
+        "metric": "6"
+      },
+      "condition": "Heiter",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+      "fctcode": "1",
+      "sky": "22",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "244"
+      },
+      "wx": "Meist klar",
+      "uvi": "0",
+      "humidity": "90",
+      "windchill": {
+        "english": "43",
+        "metric": "6"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "43",
+        "metric": "6"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "2",
+        "hour_padded": "02",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463529600",
+        "pretty": "02:00 AM CEST am 18. Mai 2016",
+        "civil": "2:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "43",
+        "metric": "6"
+      },
+      "dewpoint": {
+        "english": "41",
+        "metric": "5"
+      },
+      "condition": "Heiter",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+      "fctcode": "1",
+      "sky": "19",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "221"
+      },
+      "wx": "Klar",
+      "uvi": "0",
+      "humidity": "94",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "43",
+        "metric": "6"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.9",
+        "metric": "1013"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "3",
+        "hour_padded": "03",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463533200",
+        "pretty": "03:00 AM CEST am 18. Mai 2016",
+        "civil": "3:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "43",
+        "metric": "6"
+      },
+      "dewpoint": {
+        "english": "41",
+        "metric": "5"
+      },
+      "condition": "Heiter",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+      "fctcode": "1",
+      "sky": "17",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "SSW",
+        "degrees": "201"
+      },
+      "wx": "Klar",
+      "uvi": "0",
+      "humidity": "94",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "43",
+        "metric": "6"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.89",
+        "metric": "1012"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "4",
+        "hour_padded": "04",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463536800",
+        "pretty": "04:00 AM CEST am 18. Mai 2016",
+        "civil": "4:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "42",
+        "metric": "6"
+      },
+      "dewpoint": {
+        "english": "41",
+        "metric": "5"
+      },
+      "condition": "Heiter",
+      "icon": "clear",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+      "fctcode": "1",
+      "sky": "23",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "185"
+      },
+      "wx": "Meist klar",
+      "uvi": "0",
+      "humidity": "95",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "42",
+        "metric": "6"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.88",
+        "metric": "1012"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "5",
+        "hour_padded": "05",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463540400",
+        "pretty": "05:00 AM CEST am 18. Mai 2016",
+        "civil": "5:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "42",
+        "metric": "6"
+      },
+      "dewpoint": {
+        "english": "41",
+        "metric": "5"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "39",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "178"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "96",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "42",
+        "metric": "6"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.86",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "6",
+        "hour_padded": "06",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463544000",
+        "pretty": "06:00 AM CEST am 18. Mai 2016",
+        "civil": "6:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "43",
+        "metric": "6"
+      },
+      "dewpoint": {
+        "english": "41",
+        "metric": "5"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "50",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "SSO",
+        "degrees": "167"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "92",
+      "windchill": {
+        "english": "41",
+        "metric": "5"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "41",
+        "metric": "5"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.85",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "7",
+        "hour_padded": "07",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463547600",
+        "pretty": "07:00 AM CEST am 18. Mai 2016",
+        "civil": "7:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "46",
+        "metric": "8"
+      },
+      "dewpoint": {
+        "english": "42",
+        "metric": "6"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "58",
+      "wspd": {
+        "english": "4",
+        "metric": "6"
+      },
+      "wdir": {
+        "dir": "SSO", //Windrichtung in Wörtern
+        "degrees": "166" //Windrichtung in Grad
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "86",
+      "windchill": {
+        "english": "45",
+        "metric": "7"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "45",
+        "metric": "7"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.85",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "8",
+        "hour_padded": "08",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463551200",
+        "pretty": "08:00 AM CEST am 18. Mai 2016",
+        "civil": "8:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "49",
+        "metric": "9"
+      },
+      "dewpoint": {
+        "english": "43",
+        "metric": "6"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "65",
+      "wspd": {
+        "english": "6",
+        "metric": "10"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "172"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "1",
+      "humidity": "78",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "49",
+        "metric": "9"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.85",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "9",
+        "hour_padded": "09",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463554800",
+        "pretty": "09:00 AM CEST am 18. Mai 2016",
+        "civil": "9:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "52",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "44",
+        "metric": "7"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "57",
+      "wspd": {
+        "english": "7",
+        "metric": "11"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "189"
+      },
+      "wx": "Wolkig",
+      "uvi": "1",
+      "humidity": "74",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "52",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.84",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "10",
+        "hour_padded": "10",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463558400",
+        "pretty": "10:00 AM CEST am 18. Mai 2016",
+        "civil": "10:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "54",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "47",
+      "wspd": {
+        "english": "7",
+        "metric": "11"
+      },
+      "wdir": {
+        "dir": "SSW",
+        "degrees": "209"
+      },
+      "wx": "Wolkig",
+      "uvi": "3",
+      "humidity": "71",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "54",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.84",
+        "metric": "1011"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "11",
+        "hour_padded": "11",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463562000",
+        "pretty": "11:00 AM CEST am 18. Mai 2016",
+        "civil": "11:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "56",
+        "metric": "13"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "44",
+      "wspd": {
+        "english": "8",
+        "metric": "13"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "224"
+      },
+      "wx": "Wolkig",
+      "uvi": "4",
+      "humidity": "67",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "56",
+        "metric": "13"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.83",
+        "metric": "1010"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "12",
+        "hour_padded": "12",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463565600",
+        "pretty": "12:00 PM CEST am 18. Mai 2016",
+        "civil": "12:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "58",
+        "metric": "14"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "60",
+      "wspd": {
+        "english": "8",
+        "metric": "13"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "227"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "4",
+      "humidity": "63",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "58",
+        "metric": "14"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "8",
+      "mslp": {
+        "english": "29.82",
+        "metric": "1010"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "13",
+        "hour_padded": "13",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463569200",
+        "pretty": "01:00 PM CEST am 18. Mai 2016",
+        "civil": "1:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "59",
+        "metric": "15"
+      },
+      "dewpoint": {
+        "english": "44",
+        "metric": "7"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "78",
+      "wspd": {
+        "english": "9",
+        "metric": "14"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "233"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "3",
+      "humidity": "60",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "59",
+        "metric": "15"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "7",
+      "mslp": {
+        "english": "29.81",
+        "metric": "1009"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "14",
+        "hour_padded": "14",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463572800",
+        "pretty": "02:00 PM CEST am 18. Mai 2016",
+        "civil": "2:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "44",
+        "metric": "7"
+      },
+      "condition": "Bedeckt",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "84",
+      "wspd": {
+        "english": "9",
+        "metric": "14"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "234"
+      },
+      "wx": "Bedeckt",
+      "uvi": "3",
+      "humidity": "56",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "7",
+      "mslp": {
+        "english": "29.81",
+        "metric": "1009"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "15",
+        "hour_padded": "15",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463576400",
+        "pretty": "03:00 PM CEST am 18. Mai 2016",
+        "civil": "3:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Bedeckt",
+      "icon": "cloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+      "fctcode": "4",
+      "sky": "82",
+      "wspd": {
+        "english": "10",
+        "metric": "16"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "235"
+      },
+      "wx": "Bedeckt",
+      "uvi": "3",
+      "humidity": "58",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "1",
+      "mslp": {
+        "english": "29.8",
+        "metric": "1009"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "16",
+        "hour_padded": "16",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463580000",
+        "pretty": "04:00 PM CEST am 18. Mai 2016",
+        "civil": "4:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "79",
+      "wspd": {
+        "english": "10",
+        "metric": "16"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "235"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "2",
+      "humidity": "57",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "1",
+      "mslp": {
+        "english": "29.79",
+        "metric": "1009"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "17",
+        "hour_padded": "17",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463583600",
+        "pretty": "05:00 PM CEST am 18. Mai 2016",
+        "civil": "5:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "61",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "46",
+        "metric": "8"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "75",
+      "wspd": {
+        "english": "9",
+        "metric": "14"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "232"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "1",
+      "humidity": "58",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "61",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "1",
+      "mslp": {
+        "english": "29.78",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "18",
+        "hour_padded": "18",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463587200",
+        "pretty": "06:00 PM CEST am 18. Mai 2016",
+        "civil": "6:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "61",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "47",
+        "metric": "8"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "76",
+      "wspd": {
+        "english": "8",
+        "metric": "13"
+      },
+      "wdir": {
+        "dir": "SW",
+        "degrees": "234"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "1",
+      "humidity": "60",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "61",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "9",
+      "mslp": {
+        "english": "29.77",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "19",
+        "hour_padded": "19",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463590800",
+        "pretty": "07:00 PM CEST am 18. Mai 2016",
+        "civil": "7:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "62",
+        "metric": "17"
+      },
+      "dewpoint": {
+        "english": "49",
+        "metric": "9"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "77",
+      "wspd": {
+        "english": "6",
+        "metric": "10"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "238"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "63",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "62",
+        "metric": "17"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "12",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "20",
+        "hour_padded": "20",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463594400",
+        "pretty": "08:00 PM CEST am 18. Mai 2016",
+        "civil": "8:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "60",
+        "metric": "16"
+      },
+      "dewpoint": {
+        "english": "51",
+        "metric": "11"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "77",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "WSW",
+        "degrees": "245"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "72",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "60",
+        "metric": "16"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "13",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "21",
+        "hour_padded": "21",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463598000",
+        "pretty": "09:00 PM CEST am 18. Mai 2016",
+        "civil": "9:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "56",
+        "metric": "13"
+      },
+      "dewpoint": {
+        "english": "50",
+        "metric": "10"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "72",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "170"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "79",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "56",
+        "metric": "13"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "22",
+        "hour_padded": "22",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463601600",
+        "pretty": "10:00 PM CEST am 18. Mai 2016",
+        "civil": "10:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "53",
+        "metric": "12"
+      },
+      "dewpoint": {
+        "english": "48",
+        "metric": "9"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "68",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "OSO",
+        "degrees": "118"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "81",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "53",
+        "metric": "12"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "23",
+        "hour_padded": "23",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "18",
+        "mday_padded": "18",
+        "yday": "138",
+        "isdst": "1",
+        "epoch": "1463605200",
+        "pretty": "11:00 PM CEST am 18. Mai 2016",
+        "civil": "11:00 PM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Mittwoch",
+        "weekday_name_night": "Mittwoch Nacht",
+        "weekday_name_abbrev": "Mi",
+        "weekday_name_unlang": "Wednesday",
+        "weekday_name_night_unlang": "Wednesday Night",
+        "ampm": "PM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "52",
+        "metric": "11"
+      },
+      "dewpoint": {
+        "english": "46",
+        "metric": "8"
+      },
+      "condition": "Wolkig",
+      "icon": "mostlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+      "fctcode": "3",
+      "sky": "60",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "SO",
+        "degrees": "126"
+      },
+      "wx": "Stark bewölkt",
+      "uvi": "0",
+      "humidity": "81",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "52",
+        "metric": "11"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.77",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "0",
+        "hour_padded": "00",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463608800",
+        "pretty": "12:00 AM CEST am 19. Mai 2016",
+        "civil": "12:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "50",
+        "metric": "10"
+      },
+      "dewpoint": {
+        "english": "47",
+        "metric": "8"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "57",
+      "wspd": {
+        "english": "2",
+        "metric": "3"
+      },
+      "wdir": {
+        "dir": "SO",
+        "degrees": "132"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "87",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "50",
+        "metric": "10"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.77",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "1",
+        "hour_padded": "01",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463612400",
+        "pretty": "01:00 AM CEST am 19. Mai 2016",
+        "civil": "1:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "50",
+        "metric": "10"
+      },
+      "dewpoint": {
+        "english": "46",
+        "metric": "8"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "55",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "SSO",
+        "degrees": "151"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "88",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "50",
+        "metric": "10"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "3",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "2",
+        "hour_padded": "02",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463616000",
+        "pretty": "02:00 AM CEST am 19. Mai 2016",
+        "civil": "2:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "49",
+        "metric": "9"
+      },
+      "dewpoint": {
+        "english": "46",
+        "metric": "8"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "51",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "SSO",
+        "degrees": "166"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "90",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "49",
+        "metric": "9"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "3",
+        "hour_padded": "03",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463619600",
+        "pretty": "03:00 AM CEST am 19. Mai 2016",
+        "civil": "3:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "48",
+        "metric": "9"
+      },
+      "dewpoint": {
+        "english": "46",
+        "metric": "8"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "51",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "170"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "91",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "48",
+        "metric": "9"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.76",
+        "metric": "1008"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "4",
+        "hour_padded": "04",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463623200",
+        "pretty": "04:00 AM CEST am 19. Mai 2016",
+        "civil": "4:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "47",
+        "metric": "8"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "52",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "S",
+        "degrees": "181"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "92",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "47",
+        "metric": "8"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.75",
+        "metric": "1007"
+      }
+    },
+    {
+      "FCTTIME": {
+        "hour": "5",
+        "hour_padded": "05",
+        "min": "00",
+        "min_unpadded": "0",
+        "sec": "0",
+        "year": "2016",
+        "mon": "5",
+        "mon_padded": "05",
+        "mon_abbrev": "May",
+        "mday": "19",
+        "mday_padded": "19",
+        "yday": "139",
+        "isdst": "1",
+        "epoch": "1463626800",
+        "pretty": "05:00 AM CEST am 19. Mai 2016",
+        "civil": "5:00 AM",
+        "month_name": "Mai",
+        "month_name_abbrev": "Mai",
+        "weekday_name": "Donnerstag",
+        "weekday_name_night": "Donnerstag Nacht",
+        "weekday_name_abbrev": "Do",
+        "weekday_name_unlang": "Thursday",
+        "weekday_name_night_unlang": "Thursday Night",
+        "ampm": "AM",
+        "tz": "",
+        "age": "",
+        "UTCDATE": ""
+      },
+      "temp": {
+        "english": "47",
+        "metric": "8"
+      },
+      "dewpoint": {
+        "english": "45",
+        "metric": "7"
+      },
+      "condition": "Teils Wolkig",
+      "icon": "partlycloudy",
+      "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+      "fctcode": "2",
+      "sky": "59",
+      "wspd": {
+        "english": "3",
+        "metric": "5"
+      },
+      "wdir": {
+        "dir": "SSW",
+        "degrees": "193"
+      },
+      "wx": "Wolkig",
+      "uvi": "0",
+      "humidity": "91",
+      "windchill": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "heatindex": {
+        "english": "-9999",
+        "metric": "-9999"
+      },
+      "feelslike": {
+        "english": "47",
+        "metric": "8"
+      },
+      "qpf": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "snow": {
+        "english": "0.0",
+        "metric": "0"
+      },
+      "pop": "2",
+      "mslp": {
+        "english": "29.75",
+        "metric": "1007"
+      }
+    }
+  ]
+}

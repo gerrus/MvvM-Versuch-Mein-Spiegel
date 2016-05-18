@@ -5,6 +5,39 @@ namespace MvvMVersuch.Model.Wetter
 {
     public abstract class WetterModel : BaseModel
     {
+        #region Private Fields
+
+        private short _mondgroesse;
+        private DateTime _mondaufgang;
+        private DateTime _monduntergang;
+        private DateTime _sonnenaufgang;
+        private DateTime _sonnenuntergang;
+
+        private IEnumerable<WetterDetails> _vorschau10Tage;
+        private IEnumerable<WetterDetails> _vorschauStuendlich;
+
+        #endregion Private Fields
+
+        #region Public Properties
+
+        public DateTime Mondaufgang
+        {
+            get { return _mondaufgang; }
+            set { Set(ref _mondaufgang, value); }
+        }
+
+        public short Mondgroesse
+        {
+            get { return _mondgroesse; }
+            set { Set(ref _mondgroesse, value); }
+        }
+
+        public DateTime Monduntergang
+        {
+            get { return _monduntergang; }
+            set { Set(ref _monduntergang, value); }
+        }
+
         public DateTime Sonnenaufgang
         {
             get { return _sonnenaufgang; }
@@ -29,9 +62,6 @@ namespace MvvMVersuch.Model.Wetter
             set { Set(ref _vorschauStuendlich, value); }
         }
 
-        private DateTime _sonnenaufgang;
-        private DateTime _sonnenuntergang;
-        private IEnumerable<WetterDetails> _vorschau10Tage;
-        private IEnumerable<WetterDetails> _vorschauStuendlich;
+        #endregion Public Properties
     }
 }

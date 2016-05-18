@@ -1,5 +1,4 @@
 ﻿using MvvMVersuch.Model;
-using System;
 using Windows.UI.Xaml;
 
 namespace MvvMVersuch.Controllers
